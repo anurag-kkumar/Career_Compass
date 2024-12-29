@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Career Compass</title>
+   
+
+</head>
+<body>
+    <!--main page -->
+<div id="home" class="bg-black text-white " style="background-image: url('resorces/image/Screenshot\ 2024-12-29\ 170244.png');">
+    <header class="flex justify-between items-center px-8 py-4 bg-beige">
+      <div class="flex items-center space-x-2">
+      <a href="#home" class="cursor-pointer" ><img src="resorces/image/abstract.png" alt="logo" class="h-14 w-14"></a>
+        <span class="text-xl font-bold text-white">Career Compass</span>
+      </div>
+      <!--nav-->
+      <nav class="flex space-x-6 text-lg  max-md:hidden">
+
+        <a href="#home" class="hover:text-gray-400">Home</a>
+        <a href="#about" class="hover:text-gray-400">About</a>
+        <a href="#explore" class="hover:text-gray-400">Explore</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+        <button  class="px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-800">Enroll</button>
+      </nav>
+      <div class="mr-3 md:hidden cursor-pointer flex relative">
+        <!-- Dropdown Select -->
+        <select 
+            class="order-2 focus:outline-none bg-transparent border border-gray-300 rounded-md focus:bg-white w-32 appearance-none pr-8 text-gray-700 opacity-0"
+            id="grid-state"
+            onchange="location = this.value;">
+            <option value="" disabled selected>Navigate</option>
+            <option value="#home">Home</option>
+            <option value="#about">About</option>
+            <option value="#explore">Explore</option>
+            <option value="#contact">Contact</option>
+            <option value="#">Enroll</option>
+        </select>
+        
+        <!-- Custom Arrow Icon -->
+        <div class="absolute right-2 top-2 pointer-events-none -m-1">
+            <img src="resorces/image/menu-regular-24.png" alt="menu" class="h-10 w-10">
+        </div>
+    </div>
+    
+    </header>
+  
+    <section class=" flex flex-col-reverse lg:flex-row items-center justify-between px-8 py-16 bg-beige">
+      <!-- Text Content -->
+      <div class="max-w-lg space-y-4">
+        <h1 class="text-5xl font-bold text-white">Discover Your Future Career Path</h1>
+        <p class="text-lg text-gray-200">
+          Explore the wide range of career options available to you after 10th class. Our expert guidance and personalized approach will help you find the perfect path to success.
+        </p>
+        <button class="px-6 py-2 bg-blue-500 text-white rounded-full text-lg hover:bg-blue-800">Get Started</button>
+      </div>
+  
+      <!-- Image -->
+      <div class="w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-green-200">
+        <img src="resorces/image/Leonardo_Phoenix_10_A_young_man_with_short_black_hair_wearing_1.jpg" alt="Person smiling" class="w-full h-full object-cover">
+      </div>
+    </section>
+</div> 
+<!--why use career campuss ? page -->
+<div class="bg-black text-gray-800">
+<header class="flex flex-col justify-between items-center px-8 py-4 bg-beige">
+    <div class="text-3xl font-bold text-white m-auto"><h1>"Examples of dilemmas after 10th."</h1></div>
+    <div class="flex flex-wrap space-x-4 gap-x-3">
+        <!--card 1-->
+        <div class=" w-72 h-72 lg:w-96 lg:h-96 rounded-tr-3xl overflow-hidden bg-[#C599FF]  shadow-sm mt-8">
+           <!--icon of qoute-->
+            <div>
+                <img src="resorces/image/double-quotes.png" alt="logs" class=" m-5 h-10 w-10 opacity-20">
+            </div>
+            <!--comment -->
+            <div>
+                <h1 class="m-3 text-2xl">Life after 10th is tough.
+                     From carefree days to intense JEE prep, long study hours, no outings, and missing friends.
+                      But I'm pushing through, staying motivated, and focusing on success!</h1>
+            </div>
+            <!--footer part-->
+            <div class=" flex justify-between mt-10">
+               <div class="flex">
+                <a href="https://www.quora.com/profile/Stealthy-58" class="cursor-pointer"> <img src="https://qph.cf2.quoracdn.net/main-thumb-1508371570-200-idcqeqhpgqmpcpycdrzhwjiwiycwfcze.jpeg" alt="profile" class="rounded-full h-10 w-10 ml-3"></a>
+                <div>
+                    <h2 class="mt-3 ml-3">Stealthy</h2>
+                </div>
+            </div>
+               <img src="resorces/image/bxl-quora.svg" alt="social" class=" h-12 w-12" >
+            </div>
+        </div>
+         <!--card 2-->
+         <div class=" w-72 h-72 lg:w-96 lg:h-96 rounded-tr-3xl overflow-hidden bg-[#80BBF9]  shadow-sm mt-8">
+            <!--icon of qoute-->
+             <div>
+                 <img src="resorces/image/double-quotes.png" alt="logs" class=" m-5 h-10 w-10 opacity-20">
+             </div>
+             <!--comment -->
+             <div>
+                 <h1 class="m-3 text-2xl">After 10th, choosing a subject was tough due to interest in multiple areas. 
+                  Strengths shifted with good teachers, but family influence and difficulty in physics
+                   made decisions harder</h1>
+             </div>
+             <!--footer part-->
+             <div class=" flex justify-between mt-10">
+                <div class="flex">
+                 <a href="https://www.quora.com/profile/Asish-Bishoi" class="cursor-pointer"> <img src="https://qph.cf2.quoracdn.net/main-thumb-92568825-200-diozssjcctqpozjgaxfwhtsabveltmao.jpeg" alt="profile" class="rounded-full h-10 w-10 ml-3"></a>
+                 <div>
+                     <h2 class="mt-3 ml-3">Asish Bishoi
+                    </h2>
+                 </div>
+             </div>
+                <img src="resorces/image/bxl-quora.svg" alt="social" class=" h-12 w-12" >
+             </div>
+         </div>
+         <!--card 3-->
+         <div class=" w-72 h-72 lg:w-96 lg:h-96 rounded-tr-3xl overflow-hidden bg-[#3BE897]  shadow-sm mt-8">
+            <!--icon of qoute-->
+             <div>
+                 <img src="resorces/image/double-quotes.png" alt="logs" class=" m-5 h-10 w-10 opacity-20">
+             </div>
+             <!--comment -->
+             <div>
+                 <h1 class="m-3 text-2xl">I am sure you aren't sure what you want to pusue as career.If you were sure
+                   you wouldn't ask this question first place.
+                   If you wanted to be a doctor or engineer you'd go for science. It looks like you're confused.</h1>
+             </div>
+             <!--footer part-->
+             <div class=" flex justify-between mt-6">
+                <div class="flex">
+                 <a href="https://www.quora.com/profile/Abhishek-Yadav-1859" class="cursor-pointer"> <img src="https://qph.cf2.quoracdn.net/main-thumb-331664227-200-bdxmiasahivspycmvskjuzeepfciqydj.jpeg" alt="profile" class="rounded-full h-10 w-10 ml-3"></a>
+                 <div>
+                     <h2 class="mt-3 ml-3">Abhishek Yadav</h2>
+                 </div>
+             </div>
+                <img src="resorces/image/bxl-quora.svg" alt="social" class=" h-12 w-12" >
+             </div>
+         </div>
+        
+    </div>
+    
+</header>
+</div>
+<!--about us page -->
+<section id="about" class="bg-black py-12">
+    <div class="container mx-auto px-6">
+      <div class=" bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row items-center">
+        
+        <!-- Left Section (Images + Blue Box) -->
+        <div class="grid grid-cols-1 gap-4 md:w-1/2">
+          <img src="resorces/image/Leonardo_Phoenix_10_An_illustration_of_four_puzzle_pieces_each_0.jpg" alt="image in left side" class="w-96 h-96">
+          
+        </div>
+        
+        <!-- Right Section (Text) -->
+        <div class="md:w-1/2 mt-6 md:mt-0 md:ml-8">
+          <h2 class="text-4xl font-bold mb-4">About Us</h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Welcome to Career Compass! We help students who have just passed class 10th and are confused about their next steps.
+             Whether you're unsure about choosing the right stream – science, arts, commerce – or selecting the best college,
+              we guide you through every decision.
+              Our goal is to simplify this crucial phase by offering valuable insights, career advice, and personalized recommendations
+          </p>
+          <p class="text-lg text-gray-700">
+            At Career Compass, we believe that every student deserves to find the
+             path that aligns with their interests and strengths.
+             Let us help you shape your future with confidence!
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- fourth page -->
+  <div id="explore"  class="bg-black py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-extrabold text-white">
+        Popular Career Options
+      </h2>
+      <p class="mt-4 text-lg text-gray-600">
+        Learn more about various stream and flieds after 10th class.
+      </p>
+    </div>
+  
+    <!-- Highlighted Streams -->
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+       BTECH
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        B.A. in Economics
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        International Business and Trade
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        MBBS
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        Hotel and Hospitality Management
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        LLB program
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        Design and Creative Fields
+      </div>
+      <div class="bg-teal-500 text-white rounded-lg p-4 text-center font-bold">
+        Mass Media and Communication Degrees
+      </div>
+    </div>
+  
+    <!-- Universal Screening Card -->
+    <div class="mt-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
+      <div class="flex-1">
+        <h3 class="text-2xl font-bold text-teal-600">Indian Institute of Technology </h3>
+        <p class="mt-2 text-gray-600">
+          IITs are India's premier engineering institutes, known for excellence in education, research, and innovation
+        </p>
+        <button class="mt-4 px-6 py-2 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600">
+          Learn More
+        </button>
+      </div>
+      <div class="flex-1">
+        <img
+          src="resorces/image/DSC_9473-1_1691831907.jpg"
+          alt="Universal Screening Illustration"
+          class="rounded-lg shadow-lg"
+        />
+      </div>
+    </div>
+  </div>
+  <!-- form fill up-->
+  
+ <!-- Form Section Refactor -->
+<header  class="bg-black p-10 flex flex-col lg:flex-row justify-center items-center">
+  <!-- Text Section -->
+  <div  class="text-center lg:text-left lg:w-1/2 px-8">
+      <h1 class="text-5xl text-white leading-tight">Fill this form for</h1>
+      <h1 class="text-5xl text-white">personalized</h1>   
+      <h1 class="text-5xl text-white">Advice</h1>
+      <div class="mt-6 space-y-2">
+          <span class="block text-white">✅ just 2 minute to fill form</span>
+          
+      </div>
+  </div>
+  
+  <!-- Form Section -->
+  <form class="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg lg:w-1/2">
+      <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-first-name">
+                  First Name
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" 
+              id="grid-first-name" type="text" placeholder="Jane">
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-last-name">
+                  Last Name
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" 
+              id="grid-last-name" type="text" placeholder="Doe">
+          </div>
+      </div>
+
+      <div class="mb-6">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-password">
+              Password
+          </label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" 
+          id="grid-password" type="password" placeholder="******************">
+      </div>
+
+      <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/3 px-3">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-city">
+                  City
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" 
+              id="grid-city" type="text" placeholder="City Name">
+          </div>
+          <div class="w-full md:w-1/3 px-3">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-state">
+                  State
+              </label>
+              <select class="block appearance-none w-full bg-gray-200 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="grid-state">
+                  <option>Delhi</option>
+                  <option>Uttar Pradesh</option>
+                  <option>Bihar</option>
+              </select>
+          </div>
+          <div class="w-full md:w-1/3 px-3">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="grid-zip">
+                  Pincode
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" 
+              id="grid-zip" type="text" placeholder="90210">
+          </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="flex justify-center">
+          <button class="w-full px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600">
+              Submit
+          </button>
+      </div>
+  </form>
+</header>
+
+  <!-- filler space -->
+  <div class="bg-black h-36"></div>
+  
+  <!--footer section -->
+
+  <footer id="contact" class="bg-slate-600 overflow-auto">
+    <div class="p-7 max-md:flex justify-between">
+      <a href="#" class="cursor-pointer" ><img src="resorces/image/abstract.png" alt="logo" class="h-14 w-14"></a>
+      <span class="text-xl font-bold text-white max-md:py-3 max-md:-ml-16 ">Career Compass</span>
+      <!--temp form-->
+      <div class="md:hidden">
+        <form class="w-full max-w-sm ">
+          <div class="flex items-center border-b border-teal-500 py-2">
+            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name">
+            <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+              Sign Up
+            </button>
+            <button class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
+              Cancel
+            </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!-- part 2-->
+    <div class="flex justify-around">
+      <div class="px-9 pb-4"> <h1 class="text-white">Learn more about various 
+        </h1>
+      <h1 class="text-white">stream and flieds after 10th class.</h1>
+      </div>
+      <form class="w-full max-w-sm max-md:hidden">
+        <div class="flex items-center border-b border-teal-500 py-2">
+          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name">
+          <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+            Sign Up
+          </button>
+          <button class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
+            Cancel
+          </button>
+        </div>
+      </form>
+      <!--social links-->
+      <div>
+        <p class="text-2xl text-white">FOLLOW US</p>
+        <div class="flex gap-5 ">
+          <img src="resorces/image/instagram-logo-24.png" alt="insta" >
+          <img src="resorces/image/twitter-logo-24.png" alt=" x">
+          <img src="resorces/image/facebook-logo-24.png" alt=" fb">
+        </div>
+      </div>
+    </div>
+    <!--part3 -->
+    <div class="p-6 ml-5">
+      <h1 class="text-white">© 2024 Career Compass. All Rights Reserved. Developed by Anurag kumar.
+      </h1>
+    </div>
+  </footer>
+  </body>
+  </html>
